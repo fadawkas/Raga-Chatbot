@@ -1,12 +1,12 @@
 {"intents": [
   {
-    "tag": "hello",
-    "patterns": [ "Hello", "Hi there", "Good morning",  "What's up"   ],
-    "responses": [  "Hey!",  "Hello", "Hi!", "Good morning!"    ],
+    "tag": "pembukaan",
+    "patterns": [ "Hello", "Hi", "Halo",  "Selamat siang", "Selamat pagi", "Selamat malam"],
+    "responses": [  "Hey! Apakah Anda ingin berolahraga?",  "Halo! Sepetinya sudah siap untuk olahraga!", "Hi! Ayo olahraga!"],
     "context": ""
   },
   { "tag": "noanswer",
-    "patterns": [],
+    "patterns": [""],
     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand" ],
     "context": [""]
   },
