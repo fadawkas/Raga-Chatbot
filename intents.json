@@ -3,112 +3,84 @@
     {
       "tag": "pembukaan",
       "patterns": [ "Hello", "Hi", "Halo",  "Selamat siang", "Selamat pagi", "Selamat malam"],
-      "responses": [  "Hey! Apakah Anda ingin berolahraga?",  "Halo! Sepetinya sudah siap untuk olahraga!", "Hi! Ayo olahraga!"],
+      "responses": [ "Halo! Sepetinya sudah siap untuk olahraga!", "Hi! Ayo berolahraga"],
       "context_set": "",
       "context_required": ""
     },
     {
       "tag": "noanswer",
       "patterns": [""],
-      "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+      "responses": ["Mohon maaf, permintaan kamu kurang jelas", "Tolong berikan informasi lebih", "Saya kurang mengerti"],
       "context_set": "",
       "context_required": ""
     },
     {
-      "tag": "job",
-      "patterns": ["What is your job", "What is your work"],
-      "responses": ["My job is to make you feel like everything is okay.", "I work to serve you as well as possible"],
+      "tag": "pekerjaan",
+      "patterns": ["Apa yang bisa kamu lakukan?", "Apa pekerjaan kamu?", "Kamu bisa apa saja?", "Apa yang bisa kamu bantu?"],
+      "responses": ["Aku akan membantu kamu dalam melakukan olahraga lengan dan dada, perut, kaki, full body, dan cardio", 
+                    "Pekerjaan aku adalah untuk melatih kamu dalam olahraga lengan dan dada, perut, kaki, full body, dan cardio"],
       "context_set": "",
       "context_required": ""
     },
     {
-      "tag": "age",
-      "patterns": ["What is your age", "How old are you", "When were you born"],
-      "responses": ["I am Bot, so we do not age. Although, I was established at the year 2024"],
+      "tag": "chest_arms",
+      "patterns": ["Aku ingin melatih lengan dan dada / chest and arms", 
+                   "Berikan olahraga yang melatih lengan dan dada / chest and arms", 
+                   "Apa saja olahraga yang melatih lengan dan dada / chest and arms?",
+                   "Kasih olahraga lengan dan dada / chest and arms"],
+      "responses": ["Baik ini adalah olahraga untuk kamu:\n ",
+                   "Ini adalah olahraga yang aku siapkan:\n "],
       "context_set": "",
-      "context_required": ""
+      "context_required":  ""
     },
     {
-      "tag": "feeling",
-      "patterns": ["How are you today", "How are you"],
-      "responses": ["I am feeling good, you?", "Very good and you?", "Actually, I'm okay and you?"],
-      "context_set": "feeling",
-      "context_required": ""
+      "tag": "abs",
+      "patterns": ["Aku ingin melatih perut / abs", 
+                   "Berikan olahraga yang melatih perut / abs", 
+                   "Apa saja olahraga yang melatih perut / abs?",
+                   "Kasih olahraga perut / abs"],
+      "responses": ["Baik ini adalah olahraga untuk kamu:\n ",
+                   "Ini adalah olahraga yang aku siapkan:\n "],
+      "context_set": "",
+      "context_required":  ""
     },
     {
-      "tag": "good",
-      "patterns": ["I am good too", "I feel fine", "Good !", "Fine", "I am good", "I am great", "great"],
-      "responses": ["That is perfect!", "So, everything's okay!"],
+      "tag": "legs",
+      "patterns": ["Aku ingin melatih kaki / legs", 
+                   "Berikan olahraga yang melatih kaki / legs", 
+                   "Apa saja olahraga yang melatih kaki / legs?",
+                   "Kasih olahraga kaki / legs"],
+      "responses": ["Baik ini adalah olahraga untuk kamu:\n ",
+                   "Ini adalah olahraga yang aku siapkan:\n "],
       "context_set": "",
-      "context_required": "feeling"
+      "context_required":  ""
     },
     {
-      "tag": "bad",
-      "patterns": ["I am feeling bad", "No I am sad", "No"],
-      "responses": ["I hope you will feel better!"],
+      "tag": "full_body",
+      "patterns": ["Aku ingin melatih seluruh tubuh / full body", 
+                   "Berikan olahraga yang melatih seluruh tubuh / full body", 
+                   "Apa saja olahraga yang melatih seluruh tubuh / full body?",
+                   "Kasih olahraga seluruh tubuh / full body"],
+      "responses": ["Baik ini adalah olahraga untuk kamu:\n ",
+                   "Ini adalah olahraga yang aku siapkan:\n "],
       "context_set": "",
-      "context_required": "feeling"
+      "context_required":  ""
     },
     {
-      "tag": "actions",
-      "patterns": ["What can you do", "What can I ask you", "Can you help me"],
-      "responses": ["I can do a lot of things but here are some of my skills, you can ask me: the capital of a country, its currency and its area. A random number. To calculate a math operation."],
+      "tag": "cardio",
+      "patterns": ["Aku ingin melatih cardio", 
+                   "Berikan olahraga yang melatih cardio", 
+                   "Apa saja olahraga yang melatih cardio?",
+                   "Kasih olahraga cardio"],
+      "responses": ["Baik ini adalah olahraga untuk kamu:\n ",
+                   "Ini adalah olahraga yang aku siapkan:\n "],
       "context_set": "",
-      "context_required": ""
-    },
-    {
-      "tag": "women",
-      "patterns": ["Are you a girl", "You are a women"],
-      "responses": ["No, I am a Bot, therefore genderless"],
-      "context_set": "",
-      "context_required": ""
-    },
-    {
-      "tag": "men",
-      "patterns": ["Are you a men", "Are you a boy"],
-      "responses": ["No, I am a Bot, therefore genderless"],
-      "context_set": "",
-      "context_required": ""
-    },
-    {
-      "tag": "thanks",
-      "patterns": ["Thank you", "Thank you very much", "thanks"],
-      "responses": ["I'm only doing my job️", "No problem!"],
-      "context_set": "",
-      "context_required": ""
+      "context_required":  ""
     },
     {
       "tag": "goodbye",
-      "patterns": ["Goodbye", "Good afternoon", "Bye", "Quit", "I'm done"],
-      "responses": ["See you soon!"],
-      "context_set": "",
-      "context_required": ""
-    },
-    {
-      "tag": "city",
-      "patterns": ["Where do you live"],
-      "responses": ["I live in a server located in Indonesia!"],
-      "context_set": "",
-      "context_required": ""
-    },
-    {
-      "tag": "action",
-      "patterns": ["What are you doing"],
-      "responses": ["Actually, I'm chatting with somebody"],
-      "context_set": "",
-      "context_required": ""
-    },
-    {
-      "tag": "wait",
-      "patterns": ["Can you wait 2 minutes", "Please wait", "Wait 2 secs please"],
-      "responses": ["Sure! I'll wait."],
-      "context_set": "",
-      "context_required": ""
-    },
-    {
-      "tag": "still there",
-      "patterns": ["Are you still there?", "Are you here?"],
-      "responses": ["Of course! Always at your service."],
+      "patterns": ["Bye", "Selamat tinggal", "Stop", "Quit", "Berhenti"],
+      "responses": ["Sampai jumpa!", "Tetap Semangat!"],
       "context_set": "",
       "context_required": ""
     }
