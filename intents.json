@@ -17,8 +17,16 @@
     {
       "tag": "pekerjaan",
       "patterns": ["Apa yang bisa kamu lakukan?", "Apa pekerjaan kamu?", "Kamu bisa apa saja?", "Apa yang bisa kamu bantu?"],
-      "responses": ["Aku akan membantu kamu dalam melakukan olahraga lengan dan dada, perut, kaki, full body, dan cardio", 
-                    "Pekerjaan aku adalah untuk melatih kamu dalam olahraga lengan dan dada, perut, kaki, full body, dan cardio"],
+      "responses": ["Aku akan membantu kamu dalam melakukan olahraga Lengan dan Dada, Perut, Kaki, Full Body, dan Cardio", 
+                    "Pekerjaan aku adalah untuk melatih kamu dalam olahraga Lengan dan Dada, Perut, Kaki, Full Body, dan Cardio"],
+      "context_set": "",
+      "context_required": ""
+    },
+    {
+      "tag": "level",
+      "patterns": ["Tolong ganti level / tingkatan saya!", "Tolong update level / tingkatan saya", "Ubah level / tingkatan saya"],
+      "responses": ["Baik, apakah Anda ingin mengubah tingkatan menjadi Beginner, Intermediate, atau Advance", 
+                    "Oke, pilihlah tingkatan baru Anda, Beginner, Intermediate, atau Advance?"],
       "context_set": "",
       "context_required": ""
     },
