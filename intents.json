@@ -3,30 +3,30 @@
     {
       "tag": "pembukaan",
       "patterns": [ "Hello", "Hi", "Halo",  "Selamat siang", "Selamat pagi", "Selamat malam"],
-      "responses": [ "Halo! Sepetinya sudah siap untuk olahraga!", "Hi! Ayo berolahraga"],
+      "responses": [ "Halo! Sepetinya sudah siap untuk olahraga!\n", "Hi! Ayo berolahraga\n"],
       "context_set": "",
       "context_required": ""
     },
     {
       "tag": "noanswer",
       "patterns": [""],
-      "responses": ["Mohon maaf, permintaan kamu kurang jelas", "Tolong berikan informasi lebih", "Saya kurang mengerti"],
+      "responses": ["Mohon maaf, permintaan kamu kurang jelas\n", "Tolong berikan informasi lebih\n", "Saya kurang mengerti\n"],
       "context_set": "",
       "context_required": ""
     },
     {
       "tag": "pekerjaan",
       "patterns": ["Apa yang bisa kamu lakukan?", "Apa pekerjaan kamu?", "Kamu bisa apa saja?", "Apa yang bisa kamu bantu?"],
-      "responses": ["Aku akan membantu kamu dalam melakukan olahraga Lengan dan Dada, Perut, Kaki, Full Body, dan Cardio", 
-                    "Pekerjaan aku adalah untuk melatih kamu dalam olahraga Lengan dan Dada, Perut, Kaki, Full Body, dan Cardio"],
+      "responses": ["Aku akan membantu kamu dalam melakukan olahraga Lengan dan Dada, Perut, Kaki, Full Body, dan Cardio\n", 
+                    "Pekerjaan aku adalah untuk melatih kamu dalam olahraga Lengan dan Dada, Perut, Kaki, Full Body, dan Cardio\n"],
       "context_set": "",
       "context_required": ""
     },
     {
       "tag": "level",
-      "patterns": ["Tolong ganti level / tingkatan saya!", "Tolong update level / tingkatan saya", "Ubah level / tingkatan saya"],
-      "responses": ["Baik, apakah Anda ingin mengubah tingkatan menjadi Beginner, Intermediate, atau Advance", 
-                    "Oke, pilihlah tingkatan baru Anda, Beginner, Intermediate, atau Advance?"],
+      "patterns": ["Tolong ganti level / tingkatan saya!", "Tolong update level / tingkatan saya", 
+                   "Ubah level / tingkatan saya", "Turunkan level / tingkatan saya", "Naikkan level / tingkatan saya"],
+      "responses": [],
       "context_set": "",
       "context_required": ""
     },
